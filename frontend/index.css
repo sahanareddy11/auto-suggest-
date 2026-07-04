@@ -1,52 +1,64 @@
-/* #home-intro{
+h1{
+    color: red;
+}
+#home{
     text-align: center;
-    /* border: 3px;
-    border-color: black;
-    border-style: solid; 
+    border :3px ;
+    border-color:blue;
+    border-style: solid;
+}
+#p1
+{
+    color: blue;
 
-    border: 3px solid black;
-} */
- #intro{
-    text-align: center;
-    border: 3px solid blue;
-    
- }
- #intro:hover{
-    background-color: rgb(229, 174, 102);
- }
+}
+#p2
+{
+    color: green;
+}
+#home:hover{
 
- #p1{
-    color: blueviolet;
- }
- #p2{
-    color:brown;
- }
-
- #nav{
+    background-color: lavender;
+}
+#nav
+{
     text-align: center;
     background-color: brown;
-    height:  25px;
+    height: 25px;
     padding-top: 5px;
- }
- #nav a{
-    margin: 0px  5px;
-    /* margin:  y-axis x-axis */
-    text-decoration: none;
-    color: white;
-    
- }
- #card{
-    border: 3px solid black;
-    align-items: center;
- }
+    margin-bottom: 5px;
+}
+#nav a
+{
+    margin:0px 5px;
+    text-decoration: underline;
+    color:white;
 
- #card-img{
-    width: 300px;
+}
+
+ #card
+{
+    width: 320px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#card-img
+{
+ align-items: center;
+ width: 300px;
+ height: 300px;
+ margin: auto;
+
+}
+img
+{
+    width:300px;
     height: 300px;
-    align-items: center;
-    margin: 0px auto;
- }
- #img{
-    width: 300px;
-    height: 300px;
- }
+}
+#action
+{
+    text-align:center;
+    margin-top:10px;
+}
